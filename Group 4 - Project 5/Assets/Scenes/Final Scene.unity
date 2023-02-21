@@ -4865,6 +4865,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7676138711438337833, guid: 8da5cce6a813c51419c5ddcbe0f3588a, type: 3}
+      propertyPath: m_Intensity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7676138711438337834, guid: 8da5cce6a813c51419c5ddcbe0f3588a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.39
@@ -19584,7 +19588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7570622713658344861, guid: ddd12ae334778ac40bbdeee6654c7f01, type: 3}
       propertyPath: m_Intensity
-      value: 1
+      value: 1.3
       objectReference: {fileID: 0}
     - target: {fileID: 7570622713658344861, guid: ddd12ae334778ac40bbdeee6654c7f01, type: 3}
       propertyPath: m_SpotAngle
@@ -24868,8 +24872,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd35878cd0b42af4099a24d05c04ac50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
-  jumpHeight: 0.3
+  moveSpeed: 3
+  jumpHeight: 1.5
   gravity: 8.81
   airControl: 1
 --- !u!143 &1353873885
@@ -37104,7 +37108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 907700ba009a6304e93bae1046f5b214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 100
+  mouseSensitivity: 150
 --- !u!81 &1814954097
 AudioListener:
   m_ObjectHideFlags: 0
