@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 3027
+  controlID: 68
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 3028
+  controlID: 69
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 3029
+  controlID: 70
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -430,13 +430,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Kevin Models/Decorations
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Kevin Models/Decorations
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\fuhh6\Documents\GitHub\Game-3400---Team-4-Projects2\Team
     4 - Project 6_Real
@@ -444,23 +444,23 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 64760000
-    m_LastClickedID: 30308
-    m_ExpandedIDs: 000000002a6d0000306d00005c6d0000ca6d0000d66d0000b86e0000be6e0000de6e0000006f0000647000004276000048760000
+    m_SelectedIDs: ae790000
+    m_LastClickedID: 31150
+    m_ExpandedIDs: 00000000dc770000de770000e0770000e2770000e4770000e6770000e8770000ea770000ec770000ee770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: New Axis Studio
-      m_OriginalName: New Axis Studio
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 30274
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -474,7 +474,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000dc770000de770000e0770000e2770000e4770000e6770000e8770000ea770000ec770000ee770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -601,10 +601,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 118}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: f40efeff285bfeff3288feff3488feff32adfffffceeffffd8f8ffff34fbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 04faffff
+      m_LastClickedID: -1532
+      m_ExpandedIDs: e2faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -661,8 +661,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -101, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -101, y: -26}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -853,9 +853,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 12.527733, y: -4.7160215, z: -10.067337}
+    m_Target: {x: -3.8550463, y: -2.0020213, z: -5.143645}
     speed: 2
-    m_Value: {x: 12.527733, y: -4.7160215, z: -10.067337}
+    m_Value: {x: -3.8550463, y: -2.0020213, z: -5.143645}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -902,13 +902,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.17036603, y: 0.69320893, z: -0.17449647, w: 0.6784966}
+    m_Target: {x: -0.11916186, y: 0.62861085, z: -0.097901404, w: -0.76252264}
     speed: 2
-    m_Value: {x: 0.17007266, y: 0.6940976, z: -0.17471953, w: 0.6773308}
+    m_Value: {x: -0.119286105, y: 0.62734824, z: -0.09770415, w: -0.7633209}
   m_Size:
     m_Target: 9.511362
     speed: 2
-    m_Value: 9.959541
+    m_Value: 9.511362
   m_Ortho:
     m_Target: 0
     speed: 2
