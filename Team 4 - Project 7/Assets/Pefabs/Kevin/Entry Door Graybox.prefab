@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 8316911242160336558}
   - component: {fileID: 8316911242160336559}
   m_Layer: 0
-  m_Name: Door Frame
+  m_Name: Entry Door Graybox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

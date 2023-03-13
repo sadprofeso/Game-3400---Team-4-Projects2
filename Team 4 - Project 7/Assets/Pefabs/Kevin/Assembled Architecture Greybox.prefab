@@ -5954,7 +5954,7 @@ GameObject:
   - component: {fileID: 3798087462806288895}
   - component: {fileID: 3798087462806288894}
   m_Layer: 0
-  m_Name: Assembled Greybox
+  m_Name: Assembled Architecture Greybox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
