@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6494965572096793265}
   - component: {fileID: 7893995769159980308}
   - component: {fileID: 5362076427861058014}
+  - component: {fileID: 7958347230055589437}
   m_Layer: 0
   m_Name: Boulder7
   m_TagString: Untagged
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7958347230055589437
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5866238037943959563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -394454893421311651, guid: adece9ccd57719840be59dcf570e019a, type: 3}

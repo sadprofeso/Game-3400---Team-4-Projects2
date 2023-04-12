@@ -218,6 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1253365200111565818}
   - component: {fileID: 1253365200124555098}
+  - component: {fileID: -1391926783908565950}
   m_Layer: 0
   m_Name: P_Bush01
   m_TagString: Untagged
@@ -275,6 +276,20 @@ LODGroup:
     renderers:
     - renderer: {fileID: 1253365200109271324}
   m_Enabled: 1
+--- !u!64 &-1391926783908565950
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253365200111527898}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1253365200111527900
 GameObject:
   m_ObjectHideFlags: 0
