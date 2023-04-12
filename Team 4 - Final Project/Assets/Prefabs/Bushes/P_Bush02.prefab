@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 7992715529498157145}
   - component: {fileID: 7992715529511154937}
   - component: {fileID: 3482982026826574877}
+  - component: {fileID: 7942443062692693215}
   m_Layer: 0
   m_Name: P_Bush02
   m_TagString: Untagged
@@ -181,11 +182,25 @@ MeshCollider:
   m_GameObject: {fileID: 7992715529498131577}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!136 &7942443062692693215
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7992715529498131577}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.76
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &7992715529498131579
 GameObject:
   m_ObjectHideFlags: 0
