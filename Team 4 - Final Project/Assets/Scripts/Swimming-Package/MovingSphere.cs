@@ -137,6 +137,7 @@ public class MovingSphere : MonoBehaviour {
 
 	void FixedUpdate () {
 		Vector3 gravity = CustomGravity.GetGravity(body.position, out upAxis);
+		gravity *= 0.5f;
 		UpdateState();
 
 		if (InWater) {
