@@ -24,7 +24,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: dd97de70edf8a4141bee758a2efe7ff8, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -68,13 +68,13 @@ Material:
     - Vector1_6269b1025b26473ca8bc61634f34b537: 1
     - Vector1_687f54e8c371429f86b9eaab0e7dfe3e: 0.566
     - Vector1_6c82dffdd68049bcb019d3a9c64c92a0: 0.144
-    - Vector1_6f56a0970372485390c6587863c2374e: -4
+    - Vector1_6f56a0970372485390c6587863c2374e: -3
     - Vector1_7273530c27a34c9f8ee5723b84f96baa: 0.2
-    - Vector1_dada42ebfac44076897b6de67441ba32: 0.3
+    - Vector1_dada42ebfac44076897b6de67441ba32: 0.15
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - Color_36218622185947c6a5ae36366d8e21d8: {r: 0.083056174, g: 0.264, b: 0.24323593, a: 0.9607843}
-    - Color_93e06cd551a5449091bcde90b46765a0: {r: 0.07596116, g: 0.32599998, b: 0.18040775, a: 0.19607843}
+    - Color_36218622185947c6a5ae36366d8e21d8: {r: 0.09402979, g: 0.29999995, b: 0.27761188, a: 0.8509804}
+    - Color_93e06cd551a5449091bcde90b46765a0: {r: 0.08012042, g: 0.34999993, b: 0.19397584, a: 0.6}
     - Vector2_4351ac2be1d74054986ec5378db9d578: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
