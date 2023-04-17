@@ -47,7 +47,7 @@ public class PickupController : MonoBehaviour
         }
         if(equipped && Input.GetKeyDown(KeyCode.Q))
         {
-            Drop();
+            //Drop();
         }
     }
 
@@ -73,6 +73,7 @@ public class PickupController : MonoBehaviour
         transform.SetParent(null);
 
         rb.isKinematic = false;
+        rb.useGravity = true;
         coll.isTrigger = false;
     }
 }
