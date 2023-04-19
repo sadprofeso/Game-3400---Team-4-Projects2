@@ -68,6 +68,7 @@ public class PickupController : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
         }
+        GetComponent<AudioSource>().Pause();
 
     }
 

@@ -15,7 +15,12 @@ public class WalkSound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = player.GetComponent<Rigidbody>();
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<MovingSphere>();
+        }
+
+        rb = player.gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame

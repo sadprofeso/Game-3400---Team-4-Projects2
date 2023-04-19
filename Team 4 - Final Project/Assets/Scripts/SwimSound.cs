@@ -17,7 +17,7 @@ public class SwimSound : MonoBehaviour
     {
         if (player == null)
         {
-            player = GetComponent<MovingSphere>();
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<MovingSphere>();
         }
         timer = Time.fixedTime;
         randomNumber = Random.Range(3f, 6f);

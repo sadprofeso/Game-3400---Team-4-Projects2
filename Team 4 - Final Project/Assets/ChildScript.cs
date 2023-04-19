@@ -8,6 +8,7 @@ public class ChildScript : MonoBehaviour
     public GameObject player;
     public Transform exitDestination;
     public Transform grabPoint;
+    public AudioClip laughSFX;
     bool eventTriggered;
     NavMeshAgent agent;
     Animator anim;
@@ -46,6 +47,12 @@ public class ChildScript : MonoBehaviour
             {
                 scriptStage = 2;
                 anim.SetInteger("state", 1);
+                if(laughSFX != null)
+                {
+                    GetComponent<AudioSource>().clip = laughSFX;
+                    GetComponent<AudioSource>().Play();
+                }
+
                 waitTime = 12;
             }
             else if(scriptStage == 2)
@@ -78,7 +85,7 @@ public class ChildScript : MonoBehaviour
         agent.SetDestination(player.transform.position);
         agent.stoppingDistance = 2.5f;
         waitTime = 2.0f;
-        
+        GetComponent<AudioSource>().Stop();
     }
 
     void endEvent()

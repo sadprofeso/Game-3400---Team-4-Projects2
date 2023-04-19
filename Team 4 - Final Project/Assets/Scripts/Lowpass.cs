@@ -16,7 +16,7 @@ public class Lowpass : MonoBehaviour
     {
         if (player == null)
         {
-            player = GetComponent<MovingSphere>();
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<MovingSphere>();
         }
     }
 
