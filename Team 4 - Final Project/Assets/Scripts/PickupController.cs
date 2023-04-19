@@ -11,6 +11,7 @@ public class PickupController : MonoBehaviour
     public float pickupRange = 2.0f;
     public bool equipped;
     public static bool mouthFull;
+    public AudioClip pickupSFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -63,6 +64,11 @@ public class PickupController : MonoBehaviour
         rb.isKinematic = true;
         coll.isTrigger = true;
 
+        if(pickupSFX != null)
+        {
+            AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
+        }
+
     }
 
     public void Drop()
@@ -75,5 +81,10 @@ public class PickupController : MonoBehaviour
         rb.isKinematic = false;
         rb.useGravity = true;
         coll.isTrigger = false;
+
+        if (pickupSFX != null)
+        {
+            AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
+        }
     }
 }
