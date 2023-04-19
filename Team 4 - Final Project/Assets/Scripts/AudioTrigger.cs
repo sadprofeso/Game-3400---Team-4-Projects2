@@ -14,6 +14,21 @@ public class AudioTrigger : MonoBehaviour
         }
     }
 
+    public static IEnumerator FadeOut(AudioSource audioSource, float FadeTime)
+    {
+        float startVolume = audioSource.volume;
+
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / FadeTime;
+
+            yield return null;
+        }
+
+        audioSource.Stop();
+        audioSource.volume = startVolume;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -29,9 +44,9 @@ public class AudioTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (source != null && !source.isPlaying)
+            if (source != null && source.isPlaying)
             {
-                source.Stop();
+                StartCoroutine(FadeOut(source, 0.5f));
             }
         }
     }
