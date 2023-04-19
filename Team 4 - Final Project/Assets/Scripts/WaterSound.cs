@@ -28,6 +28,6 @@ public class WaterSound : MonoBehaviour
         float distanceFromX = Mathf.Abs(transformObject.position.z - 57f);
 	    float volume = (Mathf.Clamp01(1f - (distanceFromX / maxDistance) * rollOffFactor)) / 2;
 	    audioSource.volume = volume;
-        Debug.Log(volume);
+        //Debug.Log(volume);
     }
 }
