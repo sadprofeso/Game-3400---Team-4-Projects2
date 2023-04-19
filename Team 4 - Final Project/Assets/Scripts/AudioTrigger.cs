@@ -24,4 +24,15 @@ public class AudioTrigger : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (source != null && !source.isPlaying)
+            {
+                source.Stop();
+            }
+        }
+    }
 }
